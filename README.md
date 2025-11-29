@@ -14,6 +14,9 @@ Zero-Shot Image Classification with CLIP
     scikit-learn
     pillow
 
+Так же проект доступен по ссылке
+https://colab.research.google.com/drive/1dK1X0BlcuoZpAZQCgxtH8HVI1LcfiqM4?usp=sharing
+
 Использование
 Убедитесь, что данные находятся в правильной структуре каталогов
 Запустите скрипт Python
