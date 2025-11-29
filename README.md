@@ -1,23 +1,24 @@
-Zero-Shot Image Classification with CLIP
+# Zero-Shot Image Classification with CLIP
 Описание проекта
 Проект представляет собой реализацию классификации изображений погоды с использованием модели CLIP (Contrastive Language-Image Pre-training) от OpenAI. 
 Система позволяет классифицировать изображения по категориям: облачное небо, дождливая погода, солнечный день и рассвет.
 
 Требования
-    Python 3.8+
+    -Python 3.8+
     Библиотеки:
-    transformers
-    torch
-    pandas
-    seaborn
-    matplotlib
-    scikit-learn
-    pillow
+    -transformers
+    -torch
+    -pandas
+    -seaborn
+    -matplotlib
+    -scikit-learn
+    -pillow
 
+# Colab
 Так же проект доступен по ссылке
 https://colab.research.google.com/drive/1dK1X0BlcuoZpAZQCgxtH8HVI1LcfiqM4?usp=sharing
 
-Использование
+## Использование
 Убедитесь, что данные находятся в правильной структуре каталогов
 Запустите скрипт Python
 Дождитесь завершения обработки
@@ -30,15 +31,15 @@ confusion_matrix
 Предварительная обработка: обработка изображений и текстовых промтов
 Классификация: вычисление вероятностей для каждой категории
 
-Оценка: построение матрицы confusion_matrix и отчёта о классификации
+# Оценка: построение матрицы confusion_matrix и отчёта о классификации
 
-Промпты
+# Промпты
 Используются несколько наборов промтов для улучшения точности классификации:
 Базовый промпт: a photo of a {label}
 Расширенный промпт: an image showing {label}
 Контекстный промпт: a picture of {label} with typical features
 
-Метрики оценки
+# Метрики оценки
 Матрица путаницы: визуализация ошибок классификации
 
 Отчёт о классификации: precision, recall, f1-score для каждой категории
